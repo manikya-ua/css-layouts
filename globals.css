@@ -78,6 +78,10 @@ div[class^="square"] {
   border-radius: 0.25rem;
 }
 
+.box-xxs {
+  height: 0.5rem;
+}
+
 .box-xs {
   height: 1.25rem;
 }
@@ -104,8 +108,13 @@ div[class^="square"] {
   width: 2.5rem;
 }
 
-div[class^="box"].round {
+div[class^="box"].round,
+div[class^="square"].round {
   border-radius: 9999px;
+}
+
+.darker-grey {
+  background-color: rgb(212, 212, 212);
 }
 
 .dark-grey {
