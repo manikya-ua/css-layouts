@@ -1,10 +1,18 @@
 html {
-    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family:
+        ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 
 nav {
@@ -63,4 +71,36 @@ nav>span {
 #empty>div {
     text-align: center;
     font-size: 4rem;
+}
+
+div[class^="box"] {
+    border-radius: 0.25rem;
+}
+
+.box-sm {
+    height: 2.5rem;
+}
+
+.box-md {
+    height: 10rem;
+}
+
+.box-lg {
+    height: 12rem;
+}
+
+div[class^="box"].round {
+    border-radius: 9999px;
+}
+
+.dark-grey {
+    background-color: rgb(229, 229, 229);
+}
+
+.grey {
+    background-color: rgb(245, 245, 245);
+}
+
+.black {
+    background-color: rgb(23, 23, 23);
 }
