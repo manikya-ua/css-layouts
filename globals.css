@@ -5,8 +5,9 @@ html {
 }
 
 body {
-  width: 99vw;
-  height: 96vh;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -131,4 +132,12 @@ div[class^="square"].round {
 
 .white {
   background-color: white;
+}
+
+.lighter-black {
+  background-color: rgb(64, 64, 64);
+}
+
+.light-black {
+  background-color: rgb(38, 38, 38);
 }
