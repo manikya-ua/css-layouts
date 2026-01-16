@@ -128,3 +128,7 @@ div[class^="square"].round {
 .black {
   background-color: rgb(23, 23, 23);
 }
+
+.white {
+  background-color: white;
+}
