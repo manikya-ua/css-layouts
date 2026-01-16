@@ -87,6 +87,10 @@ div[class^="square"] {
   height: 1.25rem;
 }
 
+.box-s {
+  height: 1.5rem;
+}
+
 .box-sm {
   height: 2.5rem;
 }
