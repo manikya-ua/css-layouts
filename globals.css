@@ -123,6 +123,10 @@ div[class^="square"].round {
   border-radius: 9999px;
 }
 
+.darkerer-grey {
+  background-color: rgb(163, 163, 163);
+}
+
 .darker-grey {
   background-color: rgb(212, 212, 212);
 }
