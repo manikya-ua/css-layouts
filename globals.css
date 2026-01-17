@@ -108,6 +108,11 @@ div[class^="square"] {
   width: 1.25rem;
 }
 
+.square-s {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
 .square-sm {
   height: 2.5rem;
   width: 2.5rem;
