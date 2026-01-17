@@ -14,10 +14,16 @@ main {
 
 .up div:nth-child(1) {
   flex: 0 0 8rem;
+  height: 2rem;
 }
 
 .up div:nth-child(2) {
   flex: 0 0 20rem;
+}
+
+.up div:nth-child(3) {
+  width: 2rem;
+  height: 2rem;
 }
 
 main > div:nth-child(2) {
@@ -44,6 +50,19 @@ section:nth-of-type(1) > div {
   gap: 0.5rem;
 }
 
+section:nth-of-type(1) > div:nth-child(2) .head {
+  width: 6rem;
+}
+
+section:nth-of-type(1) > div:nth-child(3) > div:not(.head),
+section:nth-of-type(1) > div:nth-child(4) > div:not(.head) {
+  height: 1.5rem;
+}
+
+section:nth-of-type(1) > div:nth-child(4) .head {
+  width: 7rem;
+}
+
 section:nth-of-type(2) {
   flex-grow: 1;
   display: flex;
@@ -55,6 +74,7 @@ section:nth-of-type(2) {
 .up-2 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .up-2 div:nth-child(1) {
@@ -63,6 +83,7 @@ section:nth-of-type(2) {
 
 .up-2 div:nth-child(2) {
   flex: 0 0 8rem;
+  height: 2rem;
 }
 
 .grid {
@@ -88,10 +109,14 @@ section:nth-of-type(2) {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: center;
+  justify-content: start;
   padding: 1rem;
   gap: 0.5rem;
   border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.card > div:nth-child(2) div {
+  border-radius: 0.25rem;
 }
 
 .first {
@@ -99,7 +124,10 @@ section:nth-of-type(2) {
 }
 .second {
   width: 50%;
+  height: 1rem;
 }
 .third {
   width: 33%;
+  height: 1.5rem;
+  margin-top: 0.5rem;
 }
