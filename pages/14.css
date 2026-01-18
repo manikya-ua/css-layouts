@@ -32,7 +32,7 @@ header > div:last-child {
 }
 
 .score-board {
-  height: 5.75rem;
+  height: 7.75rem;
   display: flex;
   justify-content: center;
   padding: 1rem;
@@ -190,6 +190,7 @@ header > div:last-child {
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;
+  width: 20rem;
 }
 
 .content .right > div:first-child {

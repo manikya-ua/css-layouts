@@ -61,8 +61,8 @@ header > div:nth-child(1) > div:nth-child(2) {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 88px;
-  height: 88px;
+  width: 6rem;
+  height: 6rem;
   left: 1rem;
 }
 
@@ -125,7 +125,7 @@ header > div:nth-child(1) > div:nth-child(2) {
 }
 
 .mid {
-  height: 4.5rem;
+  height: fit-content;
   border-radius: 0.75rem;
   padding: 1rem;
 }
@@ -148,7 +148,7 @@ header > div:nth-child(1) > div:nth-child(2) {
 }
 
 .low {
-  height: 5rem;
+  height: fit-content;
   border-radius: 0.75rem;
   padding: 1rem;
 }

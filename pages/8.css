@@ -35,8 +35,8 @@ ul.users {
 
 ul.users li {
   border-radius: 9999px;
-  width: 28px;
-  height: 28px;
+  width: 2rem;
+  height: 2rem;
   background-color: rgb(212, 212, 212);
   border: 2px solid white;
 }
@@ -60,7 +60,7 @@ header > div > div:last-child {
 }
 
 .card {
-  width: 264px;
+  width: 18rem;
   flex-grow: 0;
   flex-shrink: 0;
   border-radius: 0.75rem;
@@ -98,7 +98,7 @@ header > div > div:last-child {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
 }
 
 .card-content > div:nth-child(1) {

@@ -146,7 +146,7 @@ ul.contacts > li > div:nth-child(2) > div:last-child {
 }
 
 .text > div:nth-child(1) {
-  width: 100%;
+  width: 16rem;
   height: 1rem;
 }
 
@@ -156,7 +156,8 @@ ul.contacts > li > div:nth-child(2) > div:last-child {
 }
 
 .m1 {
-  width: 16rem;
+  width: fit-content;
+  max-width: 28rem;
 }
 
 .text {
@@ -191,10 +192,23 @@ ul.contacts > li > div:nth-child(2) > div:last-child {
 }
 
 .chat > div:nth-child(2) > .text {
+  width: fit-content;
+  max-width: 28rem;
+}
+
+.chat > div:nth-child(2) > .text > div:nth-child(1) {
   width: 12rem;
 }
 
+.chat > div:nth-child(2) > .text > div:nth-child(2) {
+  width: 8rem;
+}
+
 .chat > div:nth-child(3) > .text {
+  width: fit-content;
+}
+
+.chat > div:nth-child(3) > .text > div:nth-child(1) {
   width: 20rem;
 }
 
@@ -203,7 +217,7 @@ ul.contacts > li > div:nth-child(2) > div:last-child {
 }
 
 .chat > div:nth-child(4) > .text {
-  width: 14.125rem;
+  width: fit-content;
 }
 
 .chat > div:nth-child(4) > .text > div:nth-child(1) {

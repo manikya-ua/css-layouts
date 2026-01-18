@@ -72,6 +72,10 @@ section:nth-of-type(2) > div:nth-child(2) {
   align-items: center;
 }
 
+.row:not(.hover) {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
 .row div[class^="box"] {
   height: 1.25rem;
 }
