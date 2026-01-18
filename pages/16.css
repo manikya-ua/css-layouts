@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  width: 16rem;
+  border-right: 1px solid rgb(229, 229, 229);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+aside > div:first-child {
+  width: 7rem;
+  height: 2.5rem;
+}
+
+.sep {
+  height: 1px;
+  background-color: rgb(229, 229, 229);
+}
+
+aside > div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+aside > div:nth-child(4) > div:first-child {
+  width: 5rem;
+  height: 1rem;
+}
+
+aside > div:nth-child(4) > div:not(:first-child) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+aside > div:nth-child(4) > div:not(:first-child) > div:nth-child(1) {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+aside > div:nth-child(4) > div:not(:first-child) > div:nth-child(2) {
+  height: 1rem;
+  flex-grow: 1;
+}
+
+.calendar-sm {
+  display: grid;
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  line-height: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+  gap: 0.25rem;
+}
+
+.calendar-sm > span {
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+}
+
+.calendar-sm > span.active {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  color: rgb(115, 115, 115);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.up {
+  display: flex;
+  gap: 1rem;
+  height: 3.5rem;
+  padding: 0 1rem;
+  align-items: center;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.up .square {
+  width: 2rem;
+  height: 2rem;
+}
+
+.up .box:not(:last-child) {
+  width: 8rem;
+  height: 1.5rem;
+}
+
+.up > div:last-child {
+  margin-left: auto;
+  width: 13rem;
+  height: 2.25rem;
+  padding: 0.25rem;
+}
+
+.up > div:last-child > div {
+  width: 4rem;
+  height: 1.75rem;
+}
+
+.calendar {
+  display: flex;
+  flex-grow: 1;
+}
+
+.time {
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(229, 229, 229);
+}
+
+.time > div {
+  flex-grow: 1;
+}
+
+.time > div:not(:last-child) {
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+.time > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  font-size: 0.75rem;
+  padding-top: 0.25rem;
+  padding-right: 0.5rem;
+  color: rgb(163, 163, 163);
+}
+
+.days {
+  flex-grow: 1;
+  display: flex;
+}
+
+.days > div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.days > div:not(:last-child) {
+  border-right: 1px solid rgb(229, 229, 229);
+}
+
+.days > div > div:last-child {
+  position: relative;
+}
+
+.days > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.days > div > div:first-child > div:first-child {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(115, 115, 115);
+}
+
+.days > div > div:first-child > div:last-child {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.days > div > div:last-child {
+  flex-grow: 1;
+}
+
+.days .selected {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+}
+
+.first {
+  position: absolute;
+  padding: 0.25rem;
+  background-color: rgb(229, 229, 229);
+  border-radius: 0.25rem;
+  height: 4rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  top: 2rem;
+}
+
+.second {
+  position: absolute;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  top: 6rem;
+  height: 3rem;
+}
+
+.third {
+  position: absolute;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  top: 1rem;
+  height: 5rem;
+  background-color: rgb(212, 212, 212);
+}
