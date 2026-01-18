@@ -32,8 +32,9 @@ main {
 }
 
 .up div:nth-child(2) {
+  flex: 1 1 0%;
+  max-width: 42rem;
   height: 2.5rem;
-  width: 510.5px;
 }
 
 .up div:nth-child(3) {

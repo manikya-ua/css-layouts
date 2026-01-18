@@ -21,14 +21,15 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 5px 1rem;
-  font-size: 0.9rem;
+  padding: 0 1rem;
+  height: 3.5rem;
+  font-size: 0.875rem;
   color: rgb(115, 115, 115);
 }
 
 .flex-overflow {
   overflow: auto;
-  width: 97.5%;
+  width: 97.8%;
 }
 
 nav a {
@@ -56,12 +57,12 @@ nav a#active {
 
 nav > span {
   font-weight: 500;
-  margin-right: 10px;
+  margin-right: 0.5rem;
 }
 
 body::before {
   content: "";
-  height: 31px;
+  height: 2rem;
   background-color: rgb(245, 245, 245);
   width: 100%;
   border-bottom: 1px solid rgb(229, 229, 229);
